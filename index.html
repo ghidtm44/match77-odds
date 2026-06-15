@@ -20,6 +20,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
+  body{overflow-x:hidden}
   body{
     font-family:var(--font); background:var(--bg); color:var(--txt);
     line-height:1.5; letter-spacing:-.01em;
@@ -70,10 +71,10 @@
   .slot::before{content:"";position:absolute;inset:0;background:radial-gradient(420px 180px at 50% -30%,rgba(245,196,81,.10),transparent 70%);pointer-events:none}
   .slot.home::before{background:radial-gradient(420px 180px at 50% -30%,rgba(59,130,246,.16),transparent 70%)}
   .slot .lab{font-size:11.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--mut2)}
-  .slot .lead{display:flex;align-items:center;gap:12px;margin-top:10px}
-  .slot .flag{font-size:42px;line-height:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4))}
-  .slot .lead .nm{font-size:25px;font-weight:780;letter-spacing:-.02em}
-  .slot .lead .pc{margin-left:auto;text-align:right}
+  .slot .lead{display:flex;align-items:center;gap:12px;margin-top:10px;min-width:0}
+  .slot .flag{font-size:42px;line-height:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4));flex:none}
+  .slot .lead .nm{font-size:25px;font-weight:780;letter-spacing:-.02em;flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .slot .lead .pc{margin-left:auto;text-align:right;flex:none;padding-left:6px}
   .slot .lead .pc .v{font-size:27px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--gold)}
   .slot.home .lead .pc .v{color:var(--accent2)}
   .slot .lead .pc .k{font-size:11px;color:var(--mut2);text-transform:uppercase;letter-spacing:.08em}
@@ -143,20 +144,6 @@
   .pincount{font-size:12.5px;color:var(--mut2)}
   .pincount b{color:var(--accent2)}
 
-  /* ---------- Rooting guide ---------- */
-  .root-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
-  .select{font-family:inherit;font-size:13px;color:var(--txt);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:9px 12px;cursor:pointer}
-  .root-list{display:flex;flex-direction:column;gap:9px}
-  .root-item{display:grid;grid-template-columns:auto 1fr auto;gap:13px;align-items:center;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
-  .root-item .icn{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:17px;background:rgba(52,211,153,.1);border:1px solid rgba(52,211,153,.25)}
-  .root-item .body{min-width:0}
-  .root-item .body .t{font-size:14px;font-weight:600}
-  .root-item .body .d{font-size:12px;color:var(--mut);margin-top:2px}
-  .root-item .body .t .hl{color:var(--accent2);font-weight:700}
-  .root-item .impact{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;flex:none}
-  .root-item .impact .v{font-size:16px;font-weight:700;color:var(--green)}
-  .root-item .impact .k{font-size:10px;color:var(--mut2);text-transform:uppercase;letter-spacing:.06em}
-
   /* ---------- misc ---------- */
   .muted{color:var(--mut)} .small{font-size:12.5px}
   .spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--line2);border-top-color:var(--accent2);border-radius:50%;animation:spin .7s linear infinite;vertical-align:-2px}
@@ -169,10 +156,37 @@
   footer{margin:46px 0 60px;color:var(--mut2);font-size:12.5px;line-height:1.7;border-top:1px solid var(--line);padding-top:22px}
   .banner{background:rgba(245,196,81,.07);border:1px solid rgba(245,196,81,.22);color:#f0d9a0;border-radius:12px;padding:12px 15px;font-size:13px;margin-bottom:18px;display:flex;gap:10px;align-items:flex-start}
   @media(max-width:760px){
-    .hero{grid-template-columns:1fr}.vs{flex-direction:row;min-width:0;padding:4px 0}.vs .ring{width:40px;height:40px}
-    .bar-row{grid-template-columns:128px 1fr 50px;gap:9px}
+    .wrap{padding:0 15px}
+    header{padding:34px 0 10px}
+    section{margin:24px 0}
+    .card{padding:17px}
+    .hero{grid-template-columns:1fr;gap:10px}
+    .slot{min-height:0;padding:18px}
+    .vs{flex-direction:row;min-width:0;padding:2px 0}.vs .ring{width:34px;height:34px;font-size:17px}.vs .v{font-size:15px}
+    .bar-row{grid-template-columns:120px 1fr 46px;gap:9px}
     .grid2{grid-template-columns:1fr}
-    .mrow .rt{gap:12px}
+    /* matchup rows: stack the two stat blocks under the teams so nothing crowds */
+    .mrow{grid-template-columns:1fr;gap:9px}
+    .mrow .rt{justify-content:flex-start;gap:22px}
+    .mrow .rt .blk{text-align:left}
+    .sim-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:430px){
+    .eyebrow{font-size:10px;letter-spacing:.08em;padding:6px 11px;line-height:1.3;text-align:center}
+    h1{font-size:30px}
+    .sec-head{gap:4px 10px}
+    .sec-head h2{font-size:19px}
+    .sec-head .note{flex-basis:100%;font-size:12px}
+    .metabar{gap:7px}
+    .chip{padding:8px 11px;font-size:12.5px;flex:1 1 auto;justify-content:center}
+    .freshness{margin-left:0;flex-basis:100%}
+    .toggle{margin-left:0 !important}
+    .slot .lead .nm{font-size:21px}
+    .slot .lead .pc .v{font-size:23px}
+    .bar-row{grid-template-columns:104px 1fr 44px;gap:8px}
+    .bar-row .who{font-size:13px;gap:7px}
+    .bar-row .who .gp{display:none}
+    .bar-row .pct{font-size:12.5px}
   }
 </style>
 </head>
@@ -182,7 +196,7 @@
   <header>
     <span class="eyebrow"><span class="dot"></span>FIFA World Cup 2026 · Round of 32 · Match 77</span>
     <h1>Who am I <span class="grad">watching</span> at MetLife?</h1>
-    <p class="sub">You've got tickets to <b>Match 77</b> — but the teams aren't decided yet. It's the <b>Winner of Group I</b> vs. the <b>best third-place team</b> from Groups C, D, F, G or H. This tracks the live odds of exactly who you'll see, and lets you simulate who to root for.</p>
+    <p class="sub">You've got tickets to <b>Match 77</b> — but the teams aren't decided yet. It's the <b>Winner of Group I</b> vs. the <b>best third-place team</b> from Groups C, D, F, G or H. This tracks the live odds of exactly who you'll see — and lets you simulate how upcoming results change the matchup.</p>
     <div class="metabar">
       <span class="chip"><span class="ic">📍</span><b>MetLife Stadium</b> · East Rutherford, NJ</span>
       <span class="chip"><span class="ic">🗓️</span><b>Tue, Jun 30</b> · 5:00 PM ET</span>
@@ -263,26 +277,6 @@
     </div>
   </section>
 
-  <!-- ===== Rooting guide ===== -->
-  <section>
-    <div class="sec-head"><h2>📣 Who should I root for?</h2><span class="note">Which upcoming result best serves your goal</span></div>
-    <div class="card">
-      <div class="root-controls">
-        <span class="small muted">My goal:</span>
-        <select class="select" id="root-goal">
-          <option value="marquee">I want a marquee opponent (Brazil, Netherlands, Spain, Uruguay, Belgium, Morocco, Japan)</option>
-          <option value="franceGroup">I want France to win Group I</option>
-          <option value="franceAdvance">I want the Group I winner to WIN Match 77 (easiest opponent)</option>
-          <option value="drama">I want the toughest, most competitive matchup</option>
-        </select>
-        <button class="btn primary" id="root-run">Analyze ↗</button>
-      </div>
-      <div class="root-list" id="root-list">
-        <p class="small muted">Pick a goal and hit <b>Analyze</b> — I'll simulate every upcoming result and rank which ones to cheer for.</p>
-      </div>
-    </div>
-  </section>
-
   <details class="method">
     <summary>How these numbers are made (methodology &amp; sources)</summary>
     <div class="mbody" id="method-body"></div>
@@ -309,8 +303,6 @@
     "Uzbekistan":"🇺🇿","DR Congo":"🇨🇩","England":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"🇭🇷","Ghana":"🇬🇭","Panama":"🇵🇦"
   };
   const flag = (n)=>FLAG[n]||"🏳️";
-  // marquee = glamour sides actually capable of landing in the 1I opponent pool (C/D/F/G/H)
-  const MARQUEE = new Set(["Brazil","Netherlands","Spain","Uruguay","Belgium","Morocco","Japan"]);
   const ELIGIBLE = ["C","D","F","G","H"];     // groups that can supply the opponent
   const pct = (x)=> (x*100).toFixed(x>=0.0995?0:1)+"%";
   const pct1 = (x)=> (x*100).toFixed(1)+"%";
@@ -547,80 +539,12 @@
   let _simT=null;
   function scheduleSim(){ clearTimeout(_simT); _simT=setTimeout(()=>recompute(true),180); }
 
-  // ---- Rooting guide -----------------------------------------------------
-  async function runRooting(){
-    const goal=$("root-goal").value;
-    const list=$("root-list");
-    list.innerHTML=`<p class="small muted"><span class="spinner"></span> Simulating every upcoming result against your goal… this runs ~80 mini-tournaments, give it a few seconds.</p>`;
-
-    // gather candidate fixtures: Group I (affects winner) + eligible groups (affect opponent)
-    const cands=[];
-    for(const L of ["I",...ELIGIBLE]){
-      const g=STATE.groups[L]; if(!g) continue;
-      for(const f of g.remaining_fixtures){
-        cands.push({L,home:f.home,away:f.away,date:f.date,key:M77.fixtureKey(f.home,f.away)});
-      }
-    }
-    const N=4000;
-    const baseline = await runSim(STATE,{N,pinned,seed:0xBEEF});
-    const baseScore = goalScore(goal,baseline);
-
-    const results=[];
-    for(const c of cands){
-      // skip already-pinned fixtures
-      if(pinned[c.key]) continue;
-      const outcomes=[
-        {label:c.home+" win", r:"H", sc:{hs:2,as:0}},
-        {label:"Draw", r:"D", sc:{hs:1,as:1}},
-        {label:c.away+" win", r:"A", sc:{hs:0,as:2}},
-      ];
-      for(const oc of outcomes){
-        const p={...pinned,[c.key]:{...oc.sc,label:oc.r,home:c.home,away:c.away}};
-        const od = await runSim(STATE,{N,pinned:p,seed:0xBEEF});
-        const sc = goalScore(goal,od);
-        results.push({cand:c, oc, delta:sc-baseScore, score:sc});
-      }
-    }
-    results.sort((a,b)=>b.delta-a.delta);
-    const top=results.filter(r=>r.delta>0.003).slice(0,8);
-    if(!top.length){ list.innerHTML=`<p class="small muted">📌 No single upcoming result moves this goal much — it's either largely decided already, or the Group I winner's path is robust no matter what happens elsewhere. (That's itself the answer: relax and enjoy the game.) Try a different goal, or pin some results above first.</p>`; return; }
-    list.innerHTML = top.map(r=>{
-      const teamToRoot = r.oc.r==="H"?r.cand.home : r.oc.r==="A"?r.cand.away : null;
-      const rootTxt = teamToRoot? `Root for <span class="hl">${flag(teamToRoot)} ${teamToRoot}</span>` : `Root for a <span class="hl">draw</span>`;
-      const dt=(r.cand.date||"").slice(5).replace("-","/");
-      return `<div class="root-item">
-        <div class="icn">📣</div>
-        <div class="body">
-          <div class="t">${rootTxt} <span class="muted" style="font-weight:500">— ${r.cand.home} v ${r.cand.away}</span></div>
-          <div class="d">Group ${r.cand.L} · ${dt} · ${goalLabel(goal)} ${pct1(r.score)}</div>
-        </div>
-        <div class="impact"><div class="v">+${(r.delta*100).toFixed(1)}</div><div class="k">pts</div></div>
-      </div>`;
-    }).join("");
-  }
-
-  function goalScore(goal,o){
-    if(goal==="franceGroup") return o.groupIWinner["France"]||0;
-    if(goal==="franceAdvance") return (o.homeAdvanceOverall||0);
-    if(goal==="marquee"){ let s=0; for(const t of Object.keys(o.slot1IOpponent)) if(MARQUEE.has(t)) s+=o.slot1IOpponent[t]; return s; }
-    if(goal==="drama"){
-      // toughest matchup = strongest expected opponent. Probability-weighted opponent
-      // Elo, normalized to a 0..1 strength index (2200 ceiling > any eligible team's Elo).
-      let s=0; for(const t of Object.keys(o.slot1IOpponent)){ const e=(STATE.team_strengths[t]||{}).elo||1500; s+=o.slot1IOpponent[t]*Math.min(1,e/2200); } return s;
-    }
-    return 0;
-  }
-  function goalLabel(goal){
-    return ({franceGroup:"France wins group →",franceAdvance:"Group I winner advances →",marquee:"Marquee opponent →",drama:"Avg opponent strength →"})[goal];
-  }
-
   // ---- UI bindings -------------------------------------------------------
   function bindUI(){
     document.querySelectorAll("#opp-toggle button").forEach(b=>{
       b.onclick=()=>{ document.querySelectorAll("#opp-toggle button").forEach(x=>x.classList.remove("on")); b.classList.add("on"); oppMode=b.dataset.mode; renderOpp(liveOdds,null); };
     });
     $("sim-reset").onclick=()=>{ pinned={}; refreshFixtureStyles(); updatePinCount(); recompute(false); };
-    $("root-run").onclick=()=>runRooting();
   }
   function setSimStatus(html){ $("sim-status").innerHTML=html; }
 
