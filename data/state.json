@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 13,
+    "matches_played": 14,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-15T20:11:28Z",
+    "last_refresh": "2026-06-15T23:00:38Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -789,26 +789,26 @@
       "teams": [
         {
           "name": "Belgium",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Iran",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
+          "gf": 1,
+          "ga": 1,
+          "points": 1
         },
         {
           "name": "Egypt",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
+          "name": "Iran",
           "played": 0,
           "won": 0,
           "drawn": 0,
@@ -828,13 +828,16 @@
           "points": 0
         }
       ],
-      "played_results": [],
-      "remaining_fixtures": [
+      "played_results": [
         {
           "home": "Belgium",
           "away": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
           "date": "2026-06-15"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Iran",
           "away": "New Zealand",
