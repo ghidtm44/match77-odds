@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "as_of": "2026-06-15",
+    "match77": {
+      "number": 77,
+      "date": "2026-06-30",
+      "kickoff_et": "5:00 PM ET",
+      "kickoff_utc": "2026-06-30T21:00Z",
+      "venue": "MetLife Stadium, East Rutherford, NJ",
+      "home_slot": "1I",
+      "away_slot": "3rd C/D/F/G/H"
+    },
+    "home_adv_elo": 0,
+    "eligible_1I_groups": ["C", "D", "F", "G", "H"],
+    "annexC_1I_distribution_raw": { "3F": 276, "3D": 99, "3G": 70, "3H": 48, "3C": 2 }
+  },
+  "team_strengths": {
+    "France": { "elo": 2063, "fifa_pts": 1870.70, "fifa_rank": 3 },
+    "Senegal": { "elo": 1860, "fifa_pts": 1684.07, "fifa_rank": 19 },
+    "Norway": { "elo": 1914, "fifa_pts": null, "fifa_rank": 29 },
+    "Iraq": { "elo": 1607, "fifa_pts": null, "fifa_rank": 58 },
+    "Brazil": { "elo": 1978, "fifa_pts": 1765.86, "fifa_rank": 6 },
+    "Morocco": { "elo": 1840, "fifa_pts": 1755.10, "fifa_rank": 7 },
+    "Scotland": { "elo": 1794, "fifa_pts": null, "fifa_rank": 36 },
+    "Haiti": { "elo": 1536, "fifa_pts": null, "fifa_rank": 84 },
+    "United States": { "elo": 1780, "fifa_pts": 1671.23, "fifa_rank": 17 },
+    "Australia": { "elo": 1839, "fifa_pts": null, "fifa_rank": 26 },
+    "Turkey": { "elo": 1849, "fifa_pts": null, "fifa_rank": 27 },
+    "Paraguay": { "elo": 1780, "fifa_pts": null, "fifa_rank": 39 },
+    "Netherlands": { "elo": 1944, "fifa_pts": 1753.57, "fifa_rank": 8 },
+    "Japan": { "elo": 1910, "fifa_pts": 1661.58, "fifa_rank": 18 },
+    "Sweden": { "elo": 1755, "fifa_pts": null, "fifa_rank": 25 },
+    "Tunisia": { "elo": 1585, "fifa_pts": null, "fifa_rank": 40 },
+    "Belgium": { "elo": 1894, "fifa_pts": 1742.24, "fifa_rank": 9 },
+    "Iran": { "elo": 1772, "fifa_pts": 1619.58, "fifa_rank": 20 },
+    "Egypt": { "elo": 1696, "fifa_pts": null, "fifa_rank": 34 },
+    "New Zealand": { "elo": 1562, "fifa_pts": null, "fifa_rank": 86 },
+    "Spain": { "elo": 2129, "fifa_pts": 1874.71, "fifa_rank": 2 },
+    "Uruguay": { "elo": 1892, "fifa_pts": 1673.07, "fifa_rank": 16 },
+    "Cape Verde": { "elo": 1606, "fifa_pts": null, "fifa_rank": 68 },
+    "Saudi Arabia": { "elo": 1576, "fifa_pts": null, "fifa_rank": 60 },
+    "Mexico": { "elo": 1881, "fifa_pts": 1687.48, "fifa_rank": 14 },
+    "South Korea": { "elo": 1786, "fifa_pts": null, "fifa_rank": 22 },
+    "Czech Republic": { "elo": 1712, "fifa_pts": null, "fifa_rank": 37 },
+    "South Africa": { "elo": 1511, "fifa_pts": null, "fifa_rank": 61 },
+    "Switzerland": { "elo": 1865, "fifa_pts": 1650.06, "fifa_rank": 21 },
+    "Canada": { "elo": 1767, "fifa_pts": null, "fifa_rank": 28 },
+    "Qatar": { "elo": 1447, "fifa_pts": null, "fifa_rank": 51 },
+    "Bosnia and Herzegovina": { "elo": 1616, "fifa_pts": null, "fifa_rank": 70 },
+    "Germany": { "elo": 1939, "fifa_pts": 1735.77, "fifa_rank": 10 },
+    "Ecuador": { "elo": 1890, "fifa_pts": null, "fifa_rank": 23 },
+    "Ivory Coast": { "elo": 1743, "fifa_pts": null, "fifa_rank": 42 },
+    "Curacao": { "elo": 1427, "fifa_pts": null, "fifa_rank": 82 },
+    "Argentina": { "elo": 2115, "fifa_pts": 1877.27, "fifa_rank": 1 },
+    "Austria": { "elo": 1830, "fifa_pts": null, "fifa_rank": 24 },
+    "Algeria": { "elo": 1772, "fifa_pts": null, "fifa_rank": 35 },
+    "Jordan": { "elo": 1680, "fifa_pts": null, "fifa_rank": 66 },
+    "Portugal": { "elo": 1989, "fifa_pts": 1767.85, "fifa_rank": 5 },
+    "Colombia": { "elo": 1982, "fifa_pts": 1698.35, "fifa_rank": 13 },
+    "Uzbekistan": { "elo": 1714, "fifa_pts": null, "fifa_rank": 50 },
+    "DR Congo": { "elo": 1652, "fifa_pts": null, "fifa_rank": 57 },
+    "England": { "elo": 2024, "fifa_pts": 1828.02, "fifa_rank": 4 },
+    "Croatia": { "elo": 1912, "fifa_pts": 1714.87, "fifa_rank": 11 },
+    "Ghana": { "elo": 1510, "fifa_pts": null, "fifa_rank": 72 },
+    "Panama": { "elo": 1730, "fifa_pts": null, "fifa_rank": 30 }
+  },
+  "groups": {
+    "A": {
+      "teams": [
+        { "name": "Mexico", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0, "points": 3 },
+        { "name": "South Korea", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 1, "points": 3 },
+        { "name": "Czech Republic", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 2, "points": 0 },
+        { "name": "South Africa", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "Mexico", "away": "South Africa", "home_score": 2, "away_score": 0, "date": "2026-06-11" },
+        { "home": "South Korea", "away": "Czech Republic", "home_score": 2, "away_score": 1, "date": "2026-06-11" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Czech Republic", "away": "South Africa", "date": "2026-06-18" },
+        { "home": "Mexico", "away": "South Korea", "date": "2026-06-18" },
+        { "home": "Czech Republic", "away": "Mexico", "date": "2026-06-24" },
+        { "home": "South Africa", "away": "South Korea", "date": "2026-06-24" }
+      ]
+    },
+    "B": {
+      "teams": [
+        { "name": "Switzerland", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 },
+        { "name": "Canada", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 },
+        { "name": "Qatar", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 },
+        { "name": "Bosnia and Herzegovina", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 }
+      ],
+      "played_results": [
+        { "home": "Canada", "away": "Bosnia and Herzegovina", "home_score": 1, "away_score": 1, "date": "2026-06-12" },
+        { "home": "Qatar", "away": "Switzerland", "home_score": 1, "away_score": 1, "date": "2026-06-13" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Switzerland", "away": "Bosnia and Herzegovina", "date": "2026-06-18" },
+        { "home": "Canada", "away": "Qatar", "date": "2026-06-18" },
+        { "home": "Switzerland", "away": "Canada", "date": "2026-06-24" },
+        { "home": "Bosnia and Herzegovina", "away": "Qatar", "date": "2026-06-24" }
+      ]
+    },
+    "C": {
+      "teams": [
+        { "name": "Scotland", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0, "points": 3 },
+        { "name": "Morocco", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 },
+        { "name": "Brazil", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1, "points": 1 },
+        { "name": "Haiti", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "Brazil", "away": "Morocco", "home_score": 1, "away_score": 1, "date": "2026-06-13" },
+        { "home": "Haiti", "away": "Scotland", "home_score": 0, "away_score": 1, "date": "2026-06-13" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Scotland", "away": "Morocco", "date": "2026-06-19" },
+        { "home": "Brazil", "away": "Haiti", "date": "2026-06-19" },
+        { "home": "Scotland", "away": "Brazil", "date": "2026-06-24" },
+        { "home": "Morocco", "away": "Haiti", "date": "2026-06-24" }
+      ]
+    },
+    "D": {
+      "teams": [
+        { "name": "United States", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 1, "points": 3 },
+        { "name": "Australia", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0, "points": 3 },
+        { "name": "Turkey", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2, "points": 0 },
+        { "name": "Paraguay", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 4, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "United States", "away": "Paraguay", "home_score": 4, "away_score": 1, "date": "2026-06-12" },
+        { "home": "Australia", "away": "Turkey", "home_score": 2, "away_score": 0, "date": "2026-06-13" }
+      ],
+      "remaining_fixtures": [
+        { "home": "United States", "away": "Australia", "date": "2026-06-19" },
+        { "home": "Turkey", "away": "Paraguay", "date": "2026-06-19" },
+        { "home": "Turkey", "away": "United States", "date": "2026-06-25" },
+        { "home": "Paraguay", "away": "Australia", "date": "2026-06-25" }
+      ]
+    },
+    "E": {
+      "teams": [
+        { "name": "Germany", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 7, "ga": 1, "points": 3 },
+        { "name": "Ivory Coast", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0, "points": 3 },
+        { "name": "Ecuador", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1, "points": 0 },
+        { "name": "Curacao", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 7, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "Germany", "away": "Curacao", "home_score": 7, "away_score": 1, "date": "2026-06-14" },
+        { "home": "Ivory Coast", "away": "Ecuador", "home_score": 1, "away_score": 0, "date": "2026-06-14" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Germany", "away": "Ivory Coast", "date": "2026-06-20" },
+        { "home": "Ecuador", "away": "Curacao", "date": "2026-06-20" },
+        { "home": "Curacao", "away": "Ivory Coast", "date": "2026-06-25" },
+        { "home": "Ecuador", "away": "Germany", "date": "2026-06-25" }
+      ]
+    },
+    "F": {
+      "teams": [
+        { "name": "Sweden", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 5, "ga": 1, "points": 3 },
+        { "name": "Japan", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2, "points": 1 },
+        { "name": "Netherlands", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2, "points": 1 },
+        { "name": "Tunisia", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 5, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "Netherlands", "away": "Japan", "home_score": 2, "away_score": 2, "date": "2026-06-14" },
+        { "home": "Sweden", "away": "Tunisia", "home_score": 5, "away_score": 1, "date": "2026-06-14" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Netherlands", "away": "Sweden", "date": "2026-06-20" },
+        { "home": "Tunisia", "away": "Japan", "date": "2026-06-20" },
+        { "home": "Japan", "away": "Sweden", "date": "2026-06-25" },
+        { "home": "Tunisia", "away": "Netherlands", "date": "2026-06-25" }
+      ]
+    },
+    "G": {
+      "teams": [
+        { "name": "Belgium", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Egypt", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Iran", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "New Zealand", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [],
+      "remaining_fixtures": [
+        { "home": "Belgium", "away": "Egypt", "date": "2026-06-15" },
+        { "home": "Iran", "away": "New Zealand", "date": "2026-06-15" },
+        { "home": "Belgium", "away": "Iran", "date": "2026-06-21" },
+        { "home": "New Zealand", "away": "Egypt", "date": "2026-06-21" },
+        { "home": "Egypt", "away": "Iran", "date": "2026-06-26" },
+        { "home": "New Zealand", "away": "Belgium", "date": "2026-06-26" }
+      ]
+    },
+    "H": {
+      "teams": [
+        { "name": "Spain", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0, "points": 1 },
+        { "name": "Cape Verde", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0, "points": 1 },
+        { "name": "Uruguay", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Saudi Arabia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [
+        { "home": "Spain", "away": "Cape Verde", "home_score": 0, "away_score": 0, "date": "2026-06-15" }
+      ],
+      "remaining_fixtures": [
+        { "home": "Saudi Arabia", "away": "Uruguay", "date": "2026-06-15" },
+        { "home": "Spain", "away": "Saudi Arabia", "date": "2026-06-21" },
+        { "home": "Uruguay", "away": "Cape Verde", "date": "2026-06-21" },
+        { "home": "Cape Verde", "away": "Saudi Arabia", "date": "2026-06-26" },
+        { "home": "Uruguay", "away": "Spain", "date": "2026-06-26" }
+      ]
+    },
+    "I": {
+      "teams": [
+        { "name": "France", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Senegal", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Iraq", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Norway", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [],
+      "remaining_fixtures": [
+        { "home": "France", "away": "Senegal", "date": "2026-06-16" },
+        { "home": "Iraq", "away": "Norway", "date": "2026-06-16" },
+        { "home": "France", "away": "Iraq", "date": "2026-06-22" },
+        { "home": "Norway", "away": "Senegal", "date": "2026-06-22" },
+        { "home": "Norway", "away": "France", "date": "2026-06-26" },
+        { "home": "Senegal", "away": "Iraq", "date": "2026-06-26" }
+      ]
+    },
+    "J": {
+      "teams": [
+        { "name": "Argentina", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Algeria", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Austria", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Jordan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [],
+      "remaining_fixtures": [
+        { "home": "Argentina", "away": "Algeria", "date": "2026-06-16" },
+        { "home": "Austria", "away": "Jordan", "date": "2026-06-17" },
+        { "home": "Argentina", "away": "Austria", "date": "2026-06-22" },
+        { "home": "Jordan", "away": "Algeria", "date": "2026-06-22" },
+        { "home": "Algeria", "away": "Austria", "date": "2026-06-27" },
+        { "home": "Jordan", "away": "Argentina", "date": "2026-06-27" }
+      ]
+    },
+    "K": {
+      "teams": [
+        { "name": "Portugal", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "DR Congo", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Uzbekistan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Colombia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [],
+      "remaining_fixtures": [
+        { "home": "Portugal", "away": "DR Congo", "date": "2026-06-17" },
+        { "home": "Uzbekistan", "away": "Colombia", "date": "2026-06-17" },
+        { "home": "Portugal", "away": "Uzbekistan", "date": "2026-06-23" },
+        { "home": "Colombia", "away": "DR Congo", "date": "2026-06-23" },
+        { "home": "Colombia", "away": "Portugal", "date": "2026-06-27" },
+        { "home": "DR Congo", "away": "Uzbekistan", "date": "2026-06-27" }
+      ]
+    },
+    "L": {
+      "teams": [
+        { "name": "England", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Croatia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Ghana", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "name": "Panama", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ],
+      "played_results": [],
+      "remaining_fixtures": [
+        { "home": "England", "away": "Croatia", "date": "2026-06-17" },
+        { "home": "Ghana", "away": "Panama", "date": "2026-06-17" },
+        { "home": "England", "away": "Ghana", "date": "2026-06-23" },
+        { "home": "Panama", "away": "Croatia", "date": "2026-06-23" },
+        { "home": "Panama", "away": "England", "date": "2026-06-27" },
+        { "home": "Croatia", "away": "Ghana", "date": "2026-06-27" }
+      ]
+    }
+  }
+}

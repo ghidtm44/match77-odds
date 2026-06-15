@@ -1,0 +1,54 @@
+name: Refresh Match 77 odds
+
+# Pulls live 2026 World Cup data from ESPN, recomputes the Monte Carlo, and
+# commits state.json + odds.json. Because GitHub Pages serves straight from
+# the repo, each commit re-publishes fresh numbers — no separate deploy step.
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"     # every 3 hours, on the hour (UTC)
+  workflow_dispatch: {}        # manual "Run workflow" button
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'data/state.json'
+      - 'data/odds.json'       # avoid an infinite self-trigger loop
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh live data + recompute odds
+        env:
+          MC_N: "150000"
+        run: |
+          export REFRESH_STAMP="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          node scripts/refresh.mjs
+
+      - name: Sanity-check the model
+        run: node scripts/test-model.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "match77-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/odds.json
+          if git diff --cached --quiet; then
+            echo "No data changes this run."
+          else
+            git commit -m "chore: refresh World Cup data ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
