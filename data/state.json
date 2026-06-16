@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 16,
+    "matches_played": 17,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-16T20:46:22Z",
+    "last_refresh": "2026-06-16T22:51:47Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -953,23 +953,13 @@
       "teams": [
         {
           "name": "France",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Senegal",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
+          "gf": 3,
+          "ga": 1,
+          "points": 3
         },
         {
           "name": "Norway",
@@ -990,15 +980,28 @@
           "gf": 0,
           "ga": 0,
           "points": 0
+        },
+        {
+          "name": "Senegal",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "points": 0
         }
       ],
-      "played_results": [],
-      "remaining_fixtures": [
+      "played_results": [
         {
           "home": "France",
           "away": "Senegal",
+          "home_score": 3,
+          "away_score": 1,
           "date": "2026-06-16"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Iraq",
           "away": "Norway",
