@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 14,
+    "matches_played": 15,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-15T23:00:38Z",
+    "last_refresh": "2026-06-16T02:57:42Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -868,6 +868,26 @@
     "H": {
       "teams": [
         {
+          "name": "Uruguay",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
+          "name": "Saudi Arabia",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
           "name": "Spain",
           "played": 1,
           "won": 0,
@@ -886,26 +906,6 @@
           "gf": 0,
           "ga": 0,
           "points": 1
-        },
-        {
-          "name": "Uruguay",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Saudi Arabia",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
         }
       ],
       "played_results": [
@@ -915,14 +915,16 @@
           "home_score": 0,
           "away_score": 0,
           "date": "2026-06-15"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Saudi Arabia",
           "away": "Uruguay",
+          "home_score": 1,
+          "away_score": 1,
           "date": "2026-06-15"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Spain",
           "away": "Saudi Arabia",
