@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 17,
+    "matches_played": 19,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-16T22:51:47Z",
+    "last_refresh": "2026-06-17T03:43:22Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -952,6 +952,16 @@
     "I": {
       "teams": [
         {
+          "name": "Norway",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 3
+        },
+        {
           "name": "France",
           "played": 1,
           "won": 1,
@@ -962,26 +972,6 @@
           "points": 3
         },
         {
-          "name": "Norway",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Iraq",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
           "name": "Senegal",
           "played": 1,
           "won": 0,
@@ -989,6 +979,16 @@
           "lost": 1,
           "gf": 1,
           "ga": 3,
+          "points": 0
+        },
+        {
+          "name": "Iraq",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
           "points": 0
         }
       ],
@@ -999,14 +999,16 @@
           "home_score": 3,
           "away_score": 1,
           "date": "2026-06-16"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Iraq",
           "away": "Norway",
+          "home_score": 1,
+          "away_score": 4,
           "date": "2026-06-16"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "France",
           "away": "Iraq",
@@ -1033,26 +1035,16 @@
       "teams": [
         {
           "name": "Argentina",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 3,
           "ga": 0,
-          "points": 0
+          "points": 3
         },
         {
           "name": "Austria",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Algeria",
           "played": 0,
           "won": 0,
           "drawn": 0,
@@ -1070,15 +1062,28 @@
           "gf": 0,
           "ga": 0,
           "points": 0
+        },
+        {
+          "name": "Algeria",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "points": 0
         }
       ],
-      "played_results": [],
-      "remaining_fixtures": [
+      "played_results": [
         {
           "home": "Argentina",
           "away": "Algeria",
+          "home_score": 3,
+          "away_score": 0,
           "date": "2026-06-16"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Austria",
           "away": "Jordan",
