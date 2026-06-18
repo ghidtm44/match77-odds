@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 22,
+    "matches_played": 23,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-17T22:44:13Z",
+    "last_refresh": "2026-06-18T03:35:23Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -1206,23 +1206,23 @@
           "points": 3
         },
         {
-          "name": "Panama",
-          "played": 0,
-          "won": 0,
+          "name": "Ghana",
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "points": 0
+          "points": 3
         },
         {
-          "name": "Ghana",
-          "played": 0,
+          "name": "Panama",
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 1,
           "points": 0
         },
         {
@@ -1243,14 +1243,16 @@
           "home_score": 4,
           "away_score": 2,
           "date": "2026-06-17"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Ghana",
           "away": "Panama",
+          "home_score": 1,
+          "away_score": 0,
           "date": "2026-06-17"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "England",
           "away": "Ghana",
