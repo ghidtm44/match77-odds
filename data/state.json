@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 24,
+    "matches_played": 25,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-18T14:59:50Z",
+    "last_refresh": "2026-06-18T18:09:53Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -317,23 +317,23 @@
         },
         {
           "name": "Czech Republic",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "points": 0
+          "gf": 2,
+          "ga": 3,
+          "points": 1
         },
         {
           "name": "South Africa",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 0,
-          "ga": 2,
-          "points": 0
+          "gf": 1,
+          "ga": 3,
+          "points": 1
         }
       ],
       "played_results": [
@@ -350,14 +350,16 @@
           "home_score": 2,
           "away_score": 1,
           "date": "2026-06-11"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Czech Republic",
           "away": "South Africa",
+          "home_score": 1,
+          "away_score": 1,
           "date": "2026-06-18"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Mexico",
           "away": "South Korea",
