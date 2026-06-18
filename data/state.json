@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 23,
+    "matches_played": 24,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-18T03:35:23Z",
+    "last_refresh": "2026-06-18T10:16:31Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -1116,6 +1116,16 @@
     "K": {
       "teams": [
         {
+          "name": "Colombia",
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "points": 3
+        },
+        {
           "name": "Portugal",
           "played": 1,
           "won": 0,
@@ -1136,23 +1146,13 @@
           "points": 1
         },
         {
-          "name": "Colombia",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
           "name": "Uzbekistan",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
           "points": 0
         }
       ],
@@ -1163,14 +1163,16 @@
           "home_score": 1,
           "away_score": 1,
           "date": "2026-06-17"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Uzbekistan",
           "away": "Colombia",
+          "home_score": 1,
+          "away_score": 3,
           "date": "2026-06-17"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Portugal",
           "away": "Uzbekistan",
