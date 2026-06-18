@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 25,
+    "matches_played": 26,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-18T18:09:53Z",
+    "last_refresh": "2026-06-18T22:54:56Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -381,13 +381,13 @@
       "teams": [
         {
           "name": "Switzerland",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 1
+          "gf": 5,
+          "ga": 2,
+          "points": 4
         },
         {
           "name": "Canada",
@@ -400,17 +400,17 @@
           "points": 1
         },
         {
-          "name": "Qatar",
-          "played": 1,
+          "name": "Bosnia and Herzegovina",
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 5,
           "points": 1
         },
         {
-          "name": "Bosnia and Herzegovina",
+          "name": "Qatar",
           "played": 1,
           "won": 0,
           "drawn": 1,
@@ -434,14 +434,16 @@
           "home_score": 1,
           "away_score": 1,
           "date": "2026-06-13"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Switzerland",
           "away": "Bosnia and Herzegovina",
+          "home_score": 4,
+          "away_score": 1,
           "date": "2026-06-18"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Canada",
           "away": "Qatar",
