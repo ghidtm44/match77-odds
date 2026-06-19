@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 28,
+    "matches_played": 29,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-19T19:45:11Z",
+    "last_refresh": "2026-06-19T22:01:54Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -551,22 +551,22 @@
       "teams": [
         {
           "name": "United States",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "points": 3
+          "points": 6
         },
         {
           "name": "Australia",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 0,
+          "ga": 2,
           "points": 3
         },
         {
@@ -604,14 +604,16 @@
           "home_score": 2,
           "away_score": 0,
           "date": "2026-06-13"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "United States",
           "away": "Australia",
+          "home_score": 2,
+          "away_score": 0,
           "date": "2026-06-19"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Turkey",
           "away": "Paraguay",
