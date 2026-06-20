@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 29,
+    "matches_played": 31,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-19T22:01:54Z",
+    "last_refresh": "2026-06-20T02:58:15Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -468,43 +468,43 @@
     "C": {
       "teams": [
         {
-          "name": "Scotland",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "points": 3
-        },
-        {
           "name": "Brazil",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 4,
           "ga": 1,
-          "points": 1
+          "points": 4
         },
         {
           "name": "Morocco",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "points": 4
+        },
+        {
+          "name": "Scotland",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
           "gf": 1,
           "ga": 1,
-          "points": 1
+          "points": 3
         },
         {
           "name": "Haiti",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
+          "ga": 4,
           "points": 0
         }
       ],
@@ -522,19 +522,23 @@
           "home_score": 0,
           "away_score": 1,
           "date": "2026-06-13"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Scotland",
           "away": "Morocco",
+          "home_score": 0,
+          "away_score": 1,
           "date": "2026-06-19"
         },
         {
           "home": "Brazil",
           "away": "Haiti",
+          "home_score": 3,
+          "away_score": 0,
           "date": "2026-06-19"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Scotland",
           "away": "Brazil",
