@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 32,
+    "matches_played": 33,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-20T16:15:01Z",
+    "last_refresh": "2026-06-20T19:20:33Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -722,24 +722,24 @@
     "F": {
       "teams": [
         {
-          "name": "Sweden",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 5,
-          "ga": 1,
-          "points": 3
-        },
-        {
           "name": "Netherlands",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 1
+          "gf": 7,
+          "ga": 3,
+          "points": 4
+        },
+        {
+          "name": "Sweden",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 6,
+          "ga": 6,
+          "points": 3
         },
         {
           "name": "Japan",
@@ -776,14 +776,16 @@
           "home_score": 5,
           "away_score": 1,
           "date": "2026-06-14"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Netherlands",
           "away": "Sweden",
+          "home_score": 5,
+          "away_score": 1,
           "date": "2026-06-20"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Tunisia",
           "away": "Japan",
