@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 36,
+    "matches_played": 37,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-21T16:28:08Z",
+    "last_refresh": "2026-06-21T19:25:44Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -894,6 +894,16 @@
     "H": {
       "teams": [
         {
+          "name": "Spain",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 0,
+          "points": 4
+        },
+        {
           "name": "Uruguay",
           "played": 1,
           "won": 0,
@@ -905,22 +915,12 @@
         },
         {
           "name": "Saudi Arabia",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "points": 1
-        },
-        {
-          "name": "Spain",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "ga": 5,
           "points": 1
         },
         {
@@ -948,14 +948,16 @@
           "home_score": 1,
           "away_score": 1,
           "date": "2026-06-15"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Spain",
           "away": "Saudi Arabia",
+          "home_score": 4,
+          "away_score": 0,
           "date": "2026-06-21"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Uruguay",
           "away": "Cape Verde",
