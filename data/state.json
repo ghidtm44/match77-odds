@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 38,
+    "matches_played": 40,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-21T22:10:57Z",
+    "last_refresh": "2026-06-22T03:53:18Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -812,6 +812,16 @@
     "G": {
       "teams": [
         {
+          "name": "Egypt",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "points": 4
+        },
+        {
           "name": "Iran",
           "played": 2,
           "won": 0,
@@ -833,22 +843,12 @@
         },
         {
           "name": "New Zealand",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 1
-        },
-        {
-          "name": "Egypt",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
+          "lost": 1,
+          "gf": 3,
+          "ga": 5,
           "points": 1
         }
       ],
@@ -873,14 +873,16 @@
           "home_score": 0,
           "away_score": 0,
           "date": "2026-06-21"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "New Zealand",
           "away": "Egypt",
+          "home_score": 1,
+          "away_score": 3,
           "date": "2026-06-21"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Egypt",
           "away": "Iran",
@@ -907,13 +909,23 @@
         },
         {
           "name": "Uruguay",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 1
+          "gf": 3,
+          "ga": 3,
+          "points": 2
+        },
+        {
+          "name": "Cape Verde",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 2
         },
         {
           "name": "Saudi Arabia",
@@ -923,16 +935,6 @@
           "lost": 1,
           "gf": 1,
           "ga": 5,
-          "points": 1
-        },
-        {
-          "name": "Cape Verde",
-          "played": 1,
-          "won": 0,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
           "points": 1
         }
       ],
@@ -957,14 +959,16 @@
           "home_score": 4,
           "away_score": 0,
           "date": "2026-06-21"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Uruguay",
           "away": "Cape Verde",
+          "home_score": 2,
+          "away_score": 2,
           "date": "2026-06-21"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Cape Verde",
           "away": "Saudi Arabia",
