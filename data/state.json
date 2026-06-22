@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 40,
+    "matches_played": 41,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-22T16:49:28Z",
+    "last_refresh": "2026-06-22T20:41:34Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -1067,22 +1067,22 @@
       "teams": [
         {
           "name": "Argentina",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 5,
           "ga": 0,
-          "points": 3
+          "points": 6
         },
         {
           "name": "Austria",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 3,
-          "ga": 1,
+          "ga": 3,
           "points": 3
         },
         {
@@ -1120,14 +1120,16 @@
           "home_score": 3,
           "away_score": 1,
           "date": "2026-06-17"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Argentina",
           "away": "Austria",
+          "home_score": 2,
+          "away_score": 0,
           "date": "2026-06-22"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Jordan",
           "away": "Algeria",
