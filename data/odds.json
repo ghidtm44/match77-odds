@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T19:57:27Z",
+  "generated_at": "2026-06-23T22:10:12Z",
   "data_source": "espn",
-  "matches_played": 45,
+  "matches_played": 46,
   "matches_total": 72,
   "espn_match77": {
     "shortName": "3RD @ 1I",
@@ -25,238 +25,244 @@
   },
   "N": 150000,
   "groupIWinner": {
-    "France": 0.84806,
-    "Norway": 0.15194,
+    "France": 0.8469866666666667,
+    "Norway": 0.15301333333333333,
     "Senegal": 0,
     "Iraq": 0
   },
   "slot1IOpponent": {
-    "Sweden": 0.7807066666666667,
-    "Japan": 0.14044666666666666,
-    "Egypt": 0.022186666666666667,
-    "Paraguay": 0.021366666666666666,
-    "Iran": 0.012046666666666667,
-    "Australia": 0.011226666666666666,
-    "Belgium": 0.005533333333333334,
-    "Uruguay": 0.0022266666666666667,
-    "New Zealand": 0.00124,
-    "Cape Verde": 0.00118,
-    "Netherlands": 0.0005933333333333333,
-    "Spain": 0.0005266666666666667,
-    "Saudi Arabia": 0.00038,
-    "Scotland": 0.0002866666666666667,
-    "Brazil": 0.00004,
-    "Morocco": 0.000013333333333333333
+    "Sweden": 0.74166,
+    "Japan": 0.13710666666666665,
+    "Egypt": 0.03641333333333333,
+    "Paraguay": 0.02872,
+    "Iran": 0.018953333333333332,
+    "Australia": 0.014946666666666667,
+    "Belgium": 0.00904,
+    "Uruguay": 0.00532,
+    "Cape Verde": 0.0021666666666666666,
+    "New Zealand": 0.0017333333333333333,
+    "Spain": 0.00154,
+    "Saudi Arabia": 0.0009266666666666667,
+    "Scotland": 0.0007,
+    "Netherlands": 0.0005733333333333334,
+    "Brazil": 0.00019333333333333333,
+    "Morocco": 0.000006666666666666667
   },
   "opponentByGroup": {
-    "3F": 0.9217466666666667,
-    "3G": 0.041006666666666663,
-    "3D": 0.032593333333333335,
-    "3H": 0.004313333333333333,
-    "3C": 0.00034
+    "3F": 0.87934,
+    "3G": 0.06614,
+    "3D": 0.043666666666666666,
+    "3H": 0.009953333333333333,
+    "3C": 0.0009
   },
   "thirdPlaceQual": {
-    "Sweden": 0.7807066666666667,
-    "Japan": 0.14044666666666666,
-    "Egypt": 0.022186666666666667,
-    "Paraguay": 0.021366666666666666,
-    "Iran": 0.012046666666666667,
-    "Australia": 0.011226666666666666,
-    "Belgium": 0.005533333333333334,
-    "Uruguay": 0.0022266666666666667,
-    "New Zealand": 0.00124,
-    "Cape Verde": 0.00118,
-    "Netherlands": 0.0005933333333333333,
-    "Spain": 0.0005266666666666667,
-    "Saudi Arabia": 0.00038,
-    "Scotland": 0.0002866666666666667,
-    "Brazil": 0.00004,
-    "Morocco": 0.000013333333333333333,
+    "Sweden": 0.74166,
+    "Japan": 0.13710666666666665,
+    "Egypt": 0.03641333333333333,
+    "Paraguay": 0.02872,
+    "Iran": 0.018953333333333332,
+    "Australia": 0.014946666666666667,
+    "Belgium": 0.00904,
+    "Uruguay": 0.00532,
+    "Cape Verde": 0.0021666666666666666,
+    "New Zealand": 0.0017333333333333333,
+    "Spain": 0.00154,
+    "Saudi Arabia": 0.0009266666666666667,
+    "Scotland": 0.0007,
+    "Netherlands": 0.0005733333333333334,
+    "Brazil": 0.00019333333333333333,
+    "Morocco": 0.000006666666666666667,
     "Haiti": 0,
     "United States": 0,
     "Turkey": 0,
     "Tunisia": 0
   },
-  "homeAdvanceOverall": 0.8671833480828337,
+  "homeAdvanceOverall": 0.8662319541529983,
   "matchups": [
     {
       "home": "France",
       "away": "Sweden",
-      "prob": 0.6624,
-      "homeAdvances": 0.9101197916594507
+      "prob": 0.62802,
+      "homeAdvances": 0.9101197916593827
     },
     {
       "home": "France",
       "away": "Japan",
-      "prob": 0.11854,
-      "homeAdvances": 0.7762269823489182
+      "prob": 0.11605333333333333,
+      "homeAdvances": 0.7762269823489204
     },
     {
       "home": "Norway",
       "away": "Sweden",
-      "prob": 0.11830666666666667,
-      "homeAdvances": 0.7841209449597636
+      "prob": 0.11364,
+      "homeAdvances": 0.7841209449597623
+    },
+    {
+      "home": "France",
+      "away": "Egypt",
+      "prob": 0.031073333333333335,
+      "homeAdvances": 0.9337553277395709
+    },
+    {
+      "home": "France",
+      "away": "Paraguay",
+      "prob": 0.024373333333333334,
+      "homeAdvances": 0.8967005348732949
     },
     {
       "home": "Norway",
       "away": "Japan",
-      "prob": 0.021906666666666668,
-      "homeAdvances": 0.5083518295413694
-    },
-    {
-      "home": "France",
-      "away": "Egypt",
-      "prob": 0.01904,
-      "homeAdvances": 0.9337553277395848
-    },
-    {
-      "home": "France",
-      "away": "Paraguay",
-      "prob": 0.01804,
-      "homeAdvances": 0.8967005348733417
+      "prob": 0.021053333333333334,
+      "homeAdvances": 0.508351829541367
     },
     {
       "home": "France",
       "away": "Iran",
-      "prob": 0.010266666666666667,
-      "homeAdvances": 0.9012545239681925
+      "prob": 0.01606,
+      "homeAdvances": 0.9012545239682049
     },
     {
       "home": "France",
       "away": "Australia",
-      "prob": 0.009593333333333334,
-      "homeAdvances": 0.8541142327619522
+      "prob": 0.012633333333333333,
+      "homeAdvances": 0.8541142327619536
     },
     {
       "home": "France",
       "away": "Belgium",
-      "prob": 0.004713333333333333,
+      "prob": 0.007646666666666667,
       "homeAdvances": 0.7967148064948334
     },
     {
       "home": "Norway",
+      "away": "Egypt",
+      "prob": 0.00534,
+      "homeAdvances": 0.8487660033493559
+    },
+    {
+      "home": "France",
+      "away": "Uruguay",
+      "prob": 0.004526666666666667,
+      "homeAdvances": 0.7991500249887756
+    },
+    {
+      "home": "Norway",
       "away": "Paraguay",
-      "prob": 0.0033266666666666666,
+      "prob": 0.004346666666666667,
       "homeAdvances": 0.7495383689089296
     },
     {
       "home": "Norway",
-      "away": "Egypt",
-      "prob": 0.0031466666666666665,
-      "homeAdvances": 0.8487660033493433
-    },
-    {
-      "home": "France",
-      "away": "Uruguay",
-      "prob": 0.00186,
-      "homeAdvances": 0.7991500249887905
-    },
-    {
-      "home": "Norway",
       "away": "Iran",
-      "prob": 0.00178,
-      "homeAdvances": 0.7610899119233654
+      "prob": 0.0028933333333333333,
+      "homeAdvances": 0.7610899119233648
     },
     {
       "home": "Norway",
       "away": "Australia",
-      "prob": 0.0016333333333333334,
-      "homeAdvances": 0.650748251202944
-    },
-    {
-      "home": "France",
-      "away": "New Zealand",
-      "prob": 0.0010933333333333333,
-      "homeAdvances": 0.9616519500992494
+      "prob": 0.0023133333333333335,
+      "homeAdvances": 0.6507482512029432
     },
     {
       "home": "France",
       "away": "Cape Verde",
-      "prob": 0.0009533333333333334,
-      "homeAdvances": 0.955176749456332
+      "prob": 0.0018066666666666667,
+      "homeAdvances": 0.9551767494563366
+    },
+    {
+      "home": "France",
+      "away": "New Zealand",
+      "prob": 0.0014,
+      "homeAdvances": 0.9616519500992501
     },
     {
       "home": "Norway",
       "away": "Belgium",
-      "prob": 0.00082,
-      "homeAdvances": 0.541647370089409
-    },
-    {
-      "home": "France",
-      "away": "Netherlands",
-      "prob": 0.0005133333333333333,
-      "homeAdvances": 0.7266517488528309
+      "prob": 0.0013933333333333332,
+      "homeAdvances": 0.5416473700894083
     },
     {
       "home": "France",
       "away": "Spain",
-      "prob": 0.0004333333333333333,
-      "homeAdvances": 0.3662208280899305
-    },
-    {
-      "home": "Norway",
-      "away": "Uruguay",
-      "prob": 0.00036666666666666667,
-      "homeAdvances": 0.545785323684352
+      "prob": 0.0012933333333333334,
+      "homeAdvances": 0.3662208280899304
     },
     {
       "home": "France",
       "away": "Saudi Arabia",
-      "prob": 0.00032,
-      "homeAdvances": 0.9597994597505631
+      "prob": 0.0008066666666666667,
+      "homeAdvances": 0.95979945975056
+    },
+    {
+      "home": "Norway",
+      "away": "Uruguay",
+      "prob": 0.0007933333333333333,
+      "homeAdvances": 0.5457853236843505
     },
     {
       "home": "France",
       "away": "Scotland",
-      "prob": 0.00024,
-      "homeAdvances": 0.8880918148058826
+      "prob": 0.00064,
+      "homeAdvances": 0.8880918148058843
+    },
+    {
+      "home": "France",
+      "away": "Netherlands",
+      "prob": 0.00048666666666666666,
+      "homeAdvances": 0.7266517488528309
     },
     {
       "home": "Norway",
       "away": "Cape Verde",
-      "prob": 0.00022666666666666666,
-      "homeAdvances": 0.9101197916577961
+      "prob": 0.00036,
+      "homeAdvances": 0.9101197916577969
     },
     {
       "home": "Norway",
       "away": "New Zealand",
-      "prob": 0.00014666666666666666,
+      "prob": 0.0003333333333333333,
       "homeAdvances": 0.9286556333865407
     },
     {
       "home": "Norway",
       "away": "Spain",
-      "prob": 0.00009333333333333333,
+      "prob": 0.0002466666666666667,
       "homeAdvances": 0.15398690182928412
-    },
-    {
-      "home": "Norway",
-      "away": "Netherlands",
-      "prob": 0.00008,
-      "homeAdvances": 0.43774553363987545
-    },
-    {
-      "home": "Norway",
-      "away": "Saudi Arabia",
-      "prob": 0.00006,
-      "homeAdvances": 0.9233763093790583
-    },
-    {
-      "home": "Norway",
-      "away": "Scotland",
-      "prob": 0.000046666666666666665,
-      "homeAdvances": 0.7282269384563994
     },
     {
       "home": "France",
       "away": "Brazil",
-      "prob": 0.00004,
+      "prob": 0.00016,
       "homeAdvances": 0.6690721297159125
+    },
+    {
+      "home": "Norway",
+      "away": "Saudi Arabia",
+      "prob": 0.00012,
+      "homeAdvances": 0.9233763093790583
+    },
+    {
+      "home": "Norway",
+      "away": "Netherlands",
+      "prob": 0.00008666666666666667,
+      "homeAdvances": 0.4377455336398754
+    },
+    {
+      "home": "Norway",
+      "away": "Scotland",
+      "prob": 0.00006,
+      "homeAdvances": 0.7282269384563995
+    },
+    {
+      "home": "Norway",
+      "away": "Brazil",
+      "prob": 0.000033333333333333335,
+      "homeAdvances": 0.37004913729965777
     },
     {
       "home": "France",
       "away": "Morocco",
-      "prob": 0.000013333333333333333,
+      "prob": 0.000006666666666666667,
       "homeAdvances": 0.8532372744037848
     }
   ],
