@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 46,
+    "matches_played": 47,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-23T22:10:12Z",
+    "last_refresh": "2026-06-24T02:53:26Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -1260,23 +1260,23 @@
           "points": 4
         },
         {
-          "name": "Panama",
-          "played": 1,
-          "won": 0,
+          "name": "Croatia",
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 1,
-          "points": 0
+          "gf": 3,
+          "ga": 4,
+          "points": 3
         },
         {
-          "name": "Croatia",
-          "played": 1,
+          "name": "Panama",
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
-          "gf": 2,
-          "ga": 4,
+          "lost": 2,
+          "gf": 0,
+          "ga": 2,
           "points": 0
         }
       ],
@@ -1301,14 +1301,16 @@
           "home_score": 0,
           "away_score": 0,
           "date": "2026-06-23"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Panama",
           "away": "Croatia",
+          "home_score": 0,
+          "away_score": 1,
           "date": "2026-06-23"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Panama",
           "away": "England",
