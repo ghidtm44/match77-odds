@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 47,
+    "matches_played": 48,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-24T02:53:26Z",
+    "last_refresh": "2026-06-24T06:46:24Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -1156,6 +1156,16 @@
     "K": {
       "teams": [
         {
+          "name": "Colombia",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 6
+        },
+        {
           "name": "Portugal",
           "played": 2,
           "won": 1,
@@ -1166,23 +1176,13 @@
           "points": 4
         },
         {
-          "name": "Colombia",
-          "played": 1,
-          "won": 1,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "points": 3
-        },
-        {
           "name": "DR Congo",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
+          "ga": 2,
           "points": 1
         },
         {
@@ -1217,14 +1217,16 @@
           "home_score": 5,
           "away_score": 0,
           "date": "2026-06-23"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Colombia",
           "away": "DR Congo",
+          "home_score": 1,
+          "away_score": 0,
           "date": "2026-06-23"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Colombia",
           "away": "Portugal",
