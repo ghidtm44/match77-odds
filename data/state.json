@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 48,
+    "matches_played": 50,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-24T19:41:49Z",
+    "last_refresh": "2026-06-24T22:14:23Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -382,43 +382,43 @@
     "B": {
       "teams": [
         {
-          "name": "Canada",
-          "played": 2,
-          "won": 1,
+          "name": "Switzerland",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
           "gf": 7,
-          "ga": 1,
-          "points": 4
+          "ga": 3,
+          "points": 7
         },
         {
-          "name": "Switzerland",
-          "played": 2,
+          "name": "Canada",
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
           "points": 4
         },
         {
           "name": "Bosnia and Herzegovina",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 5,
-          "points": 1
+          "gf": 5,
+          "ga": 6,
+          "points": 4
         },
         {
           "name": "Qatar",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
+          "lost": 2,
+          "gf": 2,
+          "ga": 10,
           "points": 1
         }
       ],
@@ -450,20 +450,23 @@
           "home_score": 6,
           "away_score": 0,
           "date": "2026-06-18"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Switzerland",
           "away": "Canada",
+          "home_score": 2,
+          "away_score": 1,
           "date": "2026-06-24"
         },
         {
           "home": "Bosnia and Herzegovina",
           "away": "Qatar",
+          "home_score": 3,
+          "away_score": 1,
           "date": "2026-06-24"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "C": {
       "teams": [
