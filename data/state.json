@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 52,
+    "matches_played": 54,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-25T02:53:23Z",
+    "last_refresh": "2026-06-25T06:45:28Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -297,42 +297,42 @@
       "teams": [
         {
           "name": "Mexico",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 6,
           "ga": 0,
-          "points": 6
+          "points": 9
+        },
+        {
+          "name": "South Africa",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "points": 4
         },
         {
           "name": "South Korea",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 2,
-          "ga": 2,
+          "ga": 3,
           "points": 3
         },
         {
           "name": "Czech Republic",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "gf": 2,
-          "ga": 3,
-          "points": 1
-        },
-        {
-          "name": "South Africa",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
+          "ga": 6,
           "points": 1
         }
       ],
@@ -364,20 +364,23 @@
           "home_score": 1,
           "away_score": 0,
           "date": "2026-06-18"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Czech Republic",
           "away": "Mexico",
+          "home_score": 0,
+          "away_score": 3,
           "date": "2026-06-24"
         },
         {
           "home": "South Africa",
           "away": "South Korea",
+          "home_score": 1,
+          "away_score": 0,
           "date": "2026-06-24"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "B": {
       "teams": [
