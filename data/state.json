@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 50,
+    "matches_played": 52,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-24T22:14:23Z",
+    "last_refresh": "2026-06-25T02:53:23Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -472,42 +472,42 @@
       "teams": [
         {
           "name": "Brazil",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 7,
           "ga": 1,
-          "points": 4
+          "points": 7
         },
         {
           "name": "Morocco",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "points": 4
+          "gf": 6,
+          "ga": 3,
+          "points": 7
         },
         {
           "name": "Scotland",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 1,
+          "ga": 4,
           "points": 3
         },
         {
           "name": "Haiti",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 0,
-          "ga": 4,
+          "lost": 3,
+          "gf": 2,
+          "ga": 8,
           "points": 0
         }
       ],
@@ -539,20 +539,23 @@
           "home_score": 3,
           "away_score": 0,
           "date": "2026-06-19"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Scotland",
           "away": "Brazil",
+          "home_score": 0,
+          "away_score": 3,
           "date": "2026-06-24"
         },
         {
           "home": "Morocco",
           "away": "Haiti",
+          "home_score": 4,
+          "away_score": 2,
           "date": "2026-06-24"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "D": {
       "teams": [
