@@ -25,18 +25,18 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 60,
+    "matches_played": 62,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-26T19:42:48Z",
+    "last_refresh": "2026-06-26T22:09:26Z",
     "espn_match77": {
-      "shortName": "3RD @ 1I",
-      "name": "Third Place Group C/D/F/G/H at Group I Winner",
+      "shortName": "3RD @ FRA",
+      "name": "Third Place Group C/D/F/G/H at France",
       "date": "2026-06-30T21:00Z",
       "competitors": [
         {
-          "team": "Group I Winner",
-          "abbr": "1I",
+          "team": "France",
+          "abbr": "FRA",
           "homeAway": "home",
           "score": "0"
         },
@@ -1003,42 +1003,42 @@
       "teams": [
         {
           "name": "France",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "points": 6
+          "gf": 10,
+          "ga": 2,
+          "points": 9
         },
         {
           "name": "Norway",
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
+          "lost": 1,
+          "gf": 8,
+          "ga": 7,
           "points": 6
         },
         {
           "name": "Senegal",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "gf": 3,
+          "gf": 8,
           "ga": 6,
-          "points": 0
+          "points": 3
         },
         {
           "name": "Iraq",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 1,
-          "ga": 7,
+          "ga": 12,
           "points": 0
         }
       ],
@@ -1070,20 +1070,23 @@
           "home_score": 3,
           "away_score": 2,
           "date": "2026-06-22"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Norway",
           "away": "France",
+          "home_score": 1,
+          "away_score": 4,
           "date": "2026-06-26"
         },
         {
           "home": "Senegal",
           "away": "Iraq",
+          "home_score": 5,
+          "away_score": 0,
           "date": "2026-06-26"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "J": {
       "teams": [
