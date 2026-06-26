@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 58,
+    "matches_played": 60,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-26T02:58:37Z",
+    "last_refresh": "2026-06-26T06:59:04Z",
     "espn_match77": {
       "shortName": "3RD @ 1I",
       "name": "Third Place Group C/D/F/G/H at Group I Winner",
@@ -564,43 +564,43 @@
       "teams": [
         {
           "name": "United States",
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "gf": 6,
-          "ga": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 4,
           "points": 6
         },
         {
           "name": "Australia",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 2,
           "ga": 2,
-          "points": 3
+          "points": 4
         },
         {
           "name": "Paraguay",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 2,
           "ga": 4,
-          "points": 3
+          "points": 4
         },
         {
           "name": "Turkey",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "gf": 0,
-          "ga": 3,
-          "points": 0
+          "gf": 3,
+          "ga": 5,
+          "points": 3
         }
       ],
       "played_results": [
@@ -631,20 +631,23 @@
           "home_score": 0,
           "away_score": 1,
           "date": "2026-06-19"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Turkey",
           "away": "United States",
+          "home_score": 3,
+          "away_score": 2,
           "date": "2026-06-25"
         },
         {
           "home": "Paraguay",
           "away": "Australia",
+          "home_score": 0,
+          "away_score": 0,
           "date": "2026-06-25"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "E": {
       "teams": [
