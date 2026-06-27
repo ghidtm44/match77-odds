@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T22:09:26Z",
+  "generated_at": "2026-06-27T02:47:48Z",
   "data_source": "espn",
-  "matches_played": 62,
+  "matches_played": 64,
   "matches_total": 72,
   "espn_match77": {
-    "shortName": "3RD @ FRA",
-    "name": "Third Place Group C/D/F/G/H at France",
+    "shortName": "SWE @ FRA",
+    "name": "Sweden at France",
     "date": "2026-06-30T21:00Z",
     "competitors": [
       {
@@ -15,8 +15,8 @@
         "score": "0"
       },
       {
-        "team": "Third Place Group C/D/F/G/H",
-        "abbr": "3RD",
+        "team": "Sweden",
+        "abbr": "SWE",
         "homeAway": "away",
         "score": "0"
       }
@@ -31,21 +31,17 @@
     "Iraq": 0
   },
   "slot1IOpponent": {
-    "Sweden": 0.9992933333333334,
-    "Egypt": 0.0006933333333333333,
-    "New Zealand": 0.000013333333333333333
+    "Sweden": 1
   },
   "opponentByGroup": {
-    "3F": 0.9992933333333334,
-    "3G": 0.0007066666666666666,
+    "3F": 1,
     "3C": 0,
     "3D": 0,
+    "3G": 0,
     "3H": 0
   },
   "thirdPlaceQual": {
-    "Sweden": 0.9992933333333334,
-    "Egypt": 0.0006933333333333333,
-    "New Zealand": 0.000013333333333333333,
+    "Sweden": 1,
     "Brazil": 0,
     "Morocco": 0,
     "Scotland": 0,
@@ -57,32 +53,22 @@
     "Netherlands": 0,
     "Japan": 0,
     "Tunisia": 0,
+    "Egypt": 0,
     "Iran": 0,
     "Belgium": 0,
+    "New Zealand": 0,
     "Spain": 0,
-    "Uruguay": 0,
     "Cape Verde": 0,
+    "Uruguay": 0,
     "Saudi Arabia": 0
   },
-  "homeAdvanceOverall": 0.9101368660603297,
+  "homeAdvanceOverall": 0.9101197916598692,
   "matchups": [
     {
       "home": "France",
       "away": "Sweden",
-      "prob": 0.9992933333333334,
-      "homeAdvances": 0.9101197916598686
-    },
-    {
-      "home": "France",
-      "away": "Egypt",
-      "prob": 0.0006933333333333333,
-      "homeAdvances": 0.9337553277395484
-    },
-    {
-      "home": "France",
-      "away": "New Zealand",
-      "prob": 0.000013333333333333333,
-      "homeAdvances": 0.9616519500992455
+      "prob": 1,
+      "homeAdvances": 0.9101197916598692
     }
   ],
   "noOpponentRate": 0

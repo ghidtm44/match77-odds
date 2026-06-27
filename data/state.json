@@ -25,13 +25,13 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 62,
+    "matches_played": 64,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-26T22:09:26Z",
+    "last_refresh": "2026-06-27T02:47:48Z",
     "espn_match77": {
-      "shortName": "3RD @ FRA",
-      "name": "Third Place Group C/D/F/G/H at France",
+      "shortName": "SWE @ FRA",
+      "name": "Sweden at France",
       "date": "2026-06-30T21:00Z",
       "competitors": [
         {
@@ -41,8 +41,8 @@
           "score": "0"
         },
         {
-          "team": "Third Place Group C/D/F/G/H",
-          "abbr": "3RD",
+          "team": "Sweden",
+          "abbr": "SWE",
           "homeAway": "away",
           "score": "0"
         }
@@ -917,43 +917,43 @@
       "teams": [
         {
           "name": "Spain",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "points": 4
-        },
-        {
-          "name": "Uruguay",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 3,
-          "ga": 3,
-          "points": 2
+          "points": 7
         },
         {
           "name": "Cape Verde",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 0,
           "gf": 2,
           "ga": 2,
+          "points": 3
+        },
+        {
+          "name": "Uruguay",
+          "played": 3,
+          "won": 0,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
           "points": 2
         },
         {
           "name": "Saudi Arabia",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 1,
           "gf": 1,
           "ga": 5,
-          "points": 1
+          "points": 2
         }
       ],
       "played_results": [
@@ -984,20 +984,23 @@
           "home_score": 2,
           "away_score": 2,
           "date": "2026-06-21"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Cape Verde",
           "away": "Saudi Arabia",
+          "home_score": 0,
+          "away_score": 0,
           "date": "2026-06-26"
         },
         {
           "home": "Uruguay",
           "away": "Spain",
+          "home_score": 0,
+          "away_score": 1,
           "date": "2026-06-26"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "I": {
       "teams": [
