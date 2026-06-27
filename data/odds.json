@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T02:47:48Z",
+  "generated_at": "2026-06-27T06:27:46Z",
   "data_source": "espn",
-  "matches_played": 64,
+  "matches_played": 66,
   "matches_total": 72,
   "espn_match77": {
     "shortName": "SWE @ FRA",
@@ -53,9 +53,9 @@
     "Netherlands": 0,
     "Japan": 0,
     "Tunisia": 0,
+    "Belgium": 0,
     "Egypt": 0,
     "Iran": 0,
-    "Belgium": 0,
     "New Zealand": 0,
     "Spain": 0,
     "Cape Verde": 0,
