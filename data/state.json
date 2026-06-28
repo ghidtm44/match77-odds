@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 66,
+    "matches_played": 70,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-27T22:00:13Z",
+    "last_refresh": "2026-06-28T03:28:38Z",
     "espn_match77": {
       "shortName": "SWE @ FRA",
       "name": "Sweden at France",
@@ -1184,42 +1184,42 @@
       "teams": [
         {
           "name": "Colombia",
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 4,
           "ga": 1,
-          "points": 6
+          "points": 7
         },
         {
           "name": "Portugal",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "gf": 6,
           "ga": 1,
-          "points": 4
+          "points": 5
         },
         {
           "name": "DR Congo",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "points": 1
+          "gf": 4,
+          "ga": 3,
+          "points": 4
         },
         {
           "name": "Uzbekistan",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 1,
-          "ga": 8,
+          "lost": 3,
+          "gf": 2,
+          "ga": 11,
           "points": 0
         }
       ],
@@ -1251,61 +1251,64 @@
           "home_score": 1,
           "away_score": 0,
           "date": "2026-06-23"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Colombia",
           "away": "Portugal",
+          "home_score": 0,
+          "away_score": 0,
           "date": "2026-06-27"
         },
         {
           "home": "DR Congo",
           "away": "Uzbekistan",
+          "home_score": 3,
+          "away_score": 1,
           "date": "2026-06-27"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "L": {
       "teams": [
         {
           "name": "England",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "points": 4
-        },
-        {
-          "name": "Ghana",
-          "played": 2,
-          "won": 1,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "points": 4
+          "points": 7
         },
         {
           "name": "Croatia",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "gf": 3,
-          "ga": 4,
-          "points": 3
+          "gf": 5,
+          "ga": 5,
+          "points": 6
+        },
+        {
+          "name": "Ghana",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 4
         },
         {
           "name": "Panama",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 0,
-          "ga": 2,
+          "ga": 4,
           "points": 0
         }
       ],
@@ -1337,20 +1340,23 @@
           "home_score": 0,
           "away_score": 1,
           "date": "2026-06-23"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Panama",
           "away": "England",
+          "home_score": 0,
+          "away_score": 2,
           "date": "2026-06-27"
         },
         {
           "home": "Croatia",
           "away": "Ghana",
+          "home_score": 2,
+          "away_score": 1,
           "date": "2026-06-27"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     }
   }
 }
