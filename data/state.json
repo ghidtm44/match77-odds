@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 70,
+    "matches_played": 72,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-28T03:28:38Z",
+    "last_refresh": "2026-06-28T08:47:16Z",
     "espn_match77": {
       "shortName": "SWE @ FRA",
       "name": "Sweden at France",
@@ -1098,42 +1098,42 @@
       "teams": [
         {
           "name": "Argentina",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "points": 6
+          "gf": 8,
+          "ga": 1,
+          "points": 9
         },
         {
           "name": "Austria",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 3,
-          "ga": 3,
-          "points": 3
+          "gf": 6,
+          "ga": 6,
+          "points": 4
         },
         {
           "name": "Algeria",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 4,
-          "points": 3
+          "gf": 5,
+          "ga": 7,
+          "points": 4
         },
         {
           "name": "Jordan",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 5,
+          "lost": 3,
+          "gf": 3,
+          "ga": 8,
           "points": 0
         }
       ],
@@ -1165,20 +1165,23 @@
           "home_score": 1,
           "away_score": 2,
           "date": "2026-06-22"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Algeria",
           "away": "Austria",
+          "home_score": 3,
+          "away_score": 3,
           "date": "2026-06-27"
         },
         {
           "home": "Jordan",
           "away": "Argentina",
+          "home_score": 1,
+          "away_score": 3,
           "date": "2026-06-27"
         }
-      ]
+      ],
+      "remaining_fixtures": []
     },
     "K": {
       "teams": [
