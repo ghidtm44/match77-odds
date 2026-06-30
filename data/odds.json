@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T19:50:27Z",
+  "generated_at": "2026-06-30T22:13:37Z",
   "data_source": "espn",
   "matches_played": 72,
   "matches_total": 72,
@@ -12,7 +12,7 @@
         "team": "France",
         "abbr": "FRA",
         "homeAway": "home",
-        "score": "0"
+        "score": "2"
       },
       {
         "team": "Sweden",
@@ -21,7 +21,7 @@
         "score": "0"
       }
     ],
-    "statusDetail": "Scheduled"
+    "statusDetail": "54'"
   },
   "N": 150000,
   "groupIWinner": {
