@@ -28,7 +28,7 @@
     "matches_played": 72,
     "matches_total": 72,
     "data_source": "espn",
-    "last_refresh": "2026-06-30T22:13:37Z",
+    "last_refresh": "2026-07-01T03:29:01Z",
     "espn_match77": {
       "shortName": "SWE @ FRA",
       "name": "Sweden at France",
@@ -38,7 +38,7 @@
           "team": "France",
           "abbr": "FRA",
           "homeAway": "home",
-          "score": "2"
+          "score": "3"
         },
         {
           "team": "Sweden",
@@ -47,7 +47,7 @@
           "score": "0"
         }
       ],
-      "statusDetail": "54'"
+      "statusDetail": "FT"
     }
   },
   "team_strengths": {
