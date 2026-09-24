@@ -25,10 +25,10 @@
       "3H": 48,
       "3C": 2
     },
-    "matches_played": 13,
+    "matches_played": 15,
     "matches_total": 72,
     "data_source": "thesportsdb",
-    "last_refresh": "2026-09-24T13:59:18Z",
+    "last_refresh": "2026-09-24T18:48:28Z",
     "espn_match77": null
   },
   "team_strengths": {
@@ -770,26 +770,26 @@
       "teams": [
         {
           "name": "Belgium",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Iran",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
+          "gf": 1,
+          "ga": 1,
+          "points": 1
         },
         {
           "name": "Egypt",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
+          "name": "Iran",
           "played": 0,
           "won": 0,
           "drawn": 0,
@@ -809,13 +809,16 @@
           "points": 0
         }
       ],
-      "played_results": [],
-      "remaining_fixtures": [
+      "played_results": [
         {
           "home": "Belgium",
           "away": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
           "date": "2026-06-15"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Iran",
           "away": "New Zealand",
@@ -846,6 +849,26 @@
     "H": {
       "teams": [
         {
+          "name": "Uruguay",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
+          "name": "Saudi Arabia",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 1
+        },
+        {
           "name": "Spain",
           "played": 1,
           "won": 0,
@@ -864,26 +887,6 @@
           "gf": 0,
           "ga": 0,
           "points": 1
-        },
-        {
-          "name": "Uruguay",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
-        },
-        {
-          "name": "Saudi Arabia",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "points": 0
         }
       ],
       "played_results": [
@@ -893,14 +896,16 @@
           "home_score": 0,
           "away_score": 0,
           "date": "2026-06-15"
-        }
-      ],
-      "remaining_fixtures": [
+        },
         {
           "home": "Saudi Arabia",
           "away": "Uruguay",
+          "home_score": 1,
+          "away_score": 1,
           "date": "2026-06-15"
-        },
+        }
+      ],
+      "remaining_fixtures": [
         {
           "home": "Spain",
           "away": "Saudi Arabia",
