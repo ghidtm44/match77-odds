@@ -27,8 +27,8 @@
     },
     "matches_played": 13,
     "matches_total": 72,
-    "data_source": "thesportsdb",
-    "last_refresh": "2026-10-03T23:29:47Z",
+    "data_source": "seed-only",
+    "last_refresh": "2026-10-04T04:07:07Z",
     "espn_match77": null
   },
   "team_strengths": {
